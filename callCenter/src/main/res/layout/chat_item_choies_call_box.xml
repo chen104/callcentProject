@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            >
+            <LinearLayout
+                android:id="@+id/chat_item_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_chat_item_ratingbar_item_choise"
+                >
+                <ImageView
+                    android:id="@+id/chat_item_to_call"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/chat_call"
+                    />
+                <TextView
+                    android:id="@+id/chat_item_telelCall_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_customer_service"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/chat_item_no_repair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_chat_item_ratingbar_item_choise"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/chat_input"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="无需联系人工客服"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

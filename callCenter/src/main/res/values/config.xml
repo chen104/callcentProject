@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Watson Conversation Service Credentials --> 
+
+    <string name="workspace_id">bdadc609-85d4-4949-8963-351a776216bd</string> 
+    <string name="conversation_username">1786320b-99d9-41b1-b1cf-a4dee72b9628</string> 
+    <string name="conversation_password">TfmVqRqYdGBR</string>  
+
+
+    <string name="callcenter_nubmer">075584485213</string>
+    <string name="partcenter_nubmer">4008988686</string>
+    <!--
+
+
+
+
+
+
+<string name="workspace_id">7b30cc34-a150-4e62-ba9d-aba3542acdf5</string> 
+    <string name="conversation_username">48d4d470-a5bf-42cb-b6c7-d9c47e65424f</string> 
+    <string name="conversation_password">EJ0Kl30ubkzN</string>  
+
+    Watson Speech-To-Text Service Credentials
+         a44a1ce3-16b6-46d1-ada2-b29362efac4e
+
+         "username": "f45d13dd-3ec2-4923-87c4-fd83ce124761",
+  "password": "Rp7eWqQLXxd3"
+    --> 
+    <string name="STT_username">e50ac362-def9-46a4-aadf-0ff2196e8f6b</string> 
+    <string name="STT_password">8EqETxLW8jF5</string>  
+
+
+    <string name="TTS_username">535e34bb-191c-4aed-9e12-5438ea5c39ee</string>  
+    <string name="TTS_password">Y6PZhkDM7mXY</string>
+
+    <!--Bluemix Mobile Analytics--> 
+    <string name="mobileanalytics_apikey">5bc78043-759d-4e52-9355-861b406bdaef</string>
+
+    <string name="iflytekAppId">5995924d</string>
+
+    <string name="rcmsHostName">192.168.43.166</string>
+    <string name="rcmsHostPort">8081</string>
+</resources>

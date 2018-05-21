@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+    <TextView
+        android:id="@+id/tv_weblink_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="产品Power System S822L 8247-22L的备件说明"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_weblink_decs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10月19日\n8247-21L,8247-21L,8247-21L,8247-21L,"
+        />
+
+    <TextView
+        android:id="@+id/tv_weblink_web_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看更多"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_web_link_url"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="https://www.ibm.com/support/knowledgecenter/en/POWER6/arecs/arecsareamloccodes.htm?view=embed"/>
+</LinearLayout>

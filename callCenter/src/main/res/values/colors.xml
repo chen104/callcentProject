@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_bubble_self">#62caa6</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+    <drawable name="bg_bublle_debug">#ecf234</drawable>
+
+
+    <!-- 画面背景色 -->
+    <drawable name="layout_backgroud">#000000</drawable>
+
+
+    <!-- 分割线背景色 -->
+    <drawable name="line_background">#161823</drawable>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- 控件按下时显示的颜色 -->
+    <color name="list_backgroud_color">#FFFFFF</color>
+    <color name="title_color">#0f8ec5</color>
+    <color name="content_color">#737373</color>
+
+
+    <!-- 单选 颜色-->
+    <color name="choise_item_focused">#FFFFFF</color>
+    <color name="choise_item_pressed">#D5D6D6</color>
+    <color name="choise_item_drawable">#FFFFFF</color>
+
+    <color name="bg_chat_radio_title_submit">#33ccff</color>
+    <color name="bg_chat_radio_item">#62caa6</color>
+
+    <color name="blue">#0f8ec5</color>
+    <color name="bg_chat_item_back">#c8cbcb</color>
+<!--
+    <color name="bg_chat_item_custom_back">#0bb597</color>
+    -->
+    <color name="bg_chat_item_custom_back">#83d1f5</color>
+    <color name="bg_actionbar_bg">#00b0da</color>
+
+    <color name="fuction_boardlight">#83d1f5</color>
+</resources>

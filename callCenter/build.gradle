@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.example.vmac.callcenter"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    // compile 'com.google.code.gson:gson:2.8.0'
+    // compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
+    // compile 'com.afollestad.material-dialogs:core:0.9.4.3'
+    //   compile group: 'org.jsoup', name: 'jsoup', version: '1.5.2'
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+    compile 'com.android.support:design:25.1.1'
+//    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+//    compile 'com.squareup.okhttp3:okhttp-ws:3.4.2'
+    compile 'com.ibm.watson.developer_cloud:conversation:4.0.0'
+    compile 'com.ibm.watson.developer_cloud:android-sdk:0.2.3'
+    compile 'com.ibm.watson.developer_cloud:text-to-speech:3.8.0'
+    compile 'com.ibm.watson.developer_cloud:speech-to-text:3.8.0'
+    compile 'com.ibm.mobilefirstplatform.clientsdk.android:analytics:1.1.0'
+    compile 'org.xutils:xutils:3.5.0'
+//    compile 'com.android.support.constraint:constraint-main_menu_popup:1.0.2'
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.8.3'
+
+    testCompile 'junit:junit:4.12'
+
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public'
+        }
+        jcenter()
+        google()
+    }
+}

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+     >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_machine_type_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="*机器型号：" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_machine_type"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="机器型号"
+                android:text="123"
+                android:background="@drawable/bg_editview"
+                android:completionThreshold="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_machine_sn_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="*机器序列号：" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_machine_sn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="机器序列号"
+                android:text="123"
+                android:background="@drawable/bg_editview"
+                android:completionThreshold="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_contacts_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="*联系人" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="联系人"
+                android:background="@drawable/bg_editview"
+                android:completionThreshold="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_telephone_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="*联系电话" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="联系电话"
+                android:inputType="phone|number"
+                android:background="@drawable/bg_editview"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_custom_address_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="*机器所在城市" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_custom_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="机器所在城市"
+                android:background="@drawable/bg_editview"
+                android:completionThreshold="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+
+        </LinearLayout>
+
+        <!--
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+
+                        >
+
+                        <TextView
+
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="客户编号" />
+
+                        <EditText
+                            android:id="@+id/dt_callinfo_custom_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:hint="客户编号"
+                            android:text="123"
+                            android:background="@drawable/bg_editview"
+                            />
+
+                    </LinearLayout>
+                    `
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_custom_name_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="* 客户名称" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_custom_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="客户名称"
+                android:completionThreshold="1"
+                android:background="@drawable/bg_editview"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_level_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="* 紧急程度" />
+
+            <Spinner
+                android:id="@+id/dt_callinfo_level"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:spinnerMode="dialog"
+                android:background="@drawable/bg_editview"
+                android:entries="@array/callinfo_level"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dt_callinfo_fault_detail_title"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="*故障说明" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_fault_detail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint=" 故障说明"
+                android:background="@drawable/bg_editview"
+                android:completionThreshold="1"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="故障备件" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_fault_part"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint=" 故障备件"
+                android:background="@drawable/bg_editview"
+                android:completionThreshold="1"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="其他备注" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dt_callinfo_remark"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="其他备注"
+                android:background="@drawable/bg_editview"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tv_addcallinfo_fail_reason"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:text="fail reson"
+            android:visibility="gone"
+            />
+
+        <!--
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Enduser" />
+
+                    <EditText
+                        android:id="@+id/dt_callinfo_custom_enduser"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:hint="Enduser"
+                        android:text="123"
+                        android:background="@drawable/bg_editview"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="工程师：" />
+
+                    <EditText
+                        android:id="@+id/dt_callinfo_engineer"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:hint="工程师名字"
+                        android:text="123"
+                        android:background="@drawable/bg_editview"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="工程师联系电话：" />
+
+                    <EditText
+                        android:id="@+id/dt_callinfo_engineer_telephone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:hint="联系电话"
+                        android:text="123"
+                        android:background="@drawable/bg_editview"
+                        />
+                </LinearLayout>
+
+
+        -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/bt_callinfo_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:id="@+id/bt_callinfo_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:id="@+id/bt_callinfo_cansole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

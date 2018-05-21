@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/line_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:weightSum="4">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_record"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@null"
+            android:elevation="0dp"
+            android:paddingLeft="5dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/microphone" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="3.91"
+            android:background="@drawable/bg_editview"
+            android:hint="@string/what_s_on_your_mind"
+            android:lines="1"
+            android:paddingLeft="10dp"
+
+            />
+
+        <!--<Button android:id="@+id/btn_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="ASK"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary" />-->
+        <android.support.v7.widget.AppCompatImageButton
+
+            android:id="@+id/btn_send"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:elevation="0dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/pc_send" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line_input"
+        android:windowSoftInputMode="adjustResize"
+        >
+
+        <com.example.vmac.callCenter.view.ChatListView
+
+            android:id="@+id/recycler_view"
+            android:windowSoftInputMode="adjustResize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scrollbars="vertical"
+            android:transcriptMode="normal"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

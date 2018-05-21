@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="city">
+        <item>深圳</item>
+    </string-array>
+
+    <string-array name="array_zoom">
+
+        <item>宝安区</item>
+
+        <item>龙岗区</item>
+
+        <item>盐田区</item>
+
+        <item>福田区</item>
+
+        <item>罗湖</item>
+
+    </string-array>
+
+    <string-array name="array_city">
+
+        <item>深圳</item>
+
+        <item>广州</item>
+
+        <item>东莞</item>
+
+        <item>惠州</item>
+    </string-array>
+
+    <string-array name="array_cost">
+
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+    </string-array>to_
+
+    <string-array name="to_array_cost">
+
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+    </string-array>
+
+    <string-array name="array_office">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    </string-array>
+    <string-array name="array_room">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="callinfo_level">
+        <item>1</item>
+
+        <item >2</item>
+
+        <item >3</item>
+    </string-array>
+
+
+</resources>
